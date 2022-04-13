@@ -1,0 +1,616 @@
+@import './cropper/dist/cropper.css';
+
+/* .cropper-view-box,
+.cropper-face{
+    border-radius: 50%;
+} */
+.set-img-crop{
+    height: 300px !important;
+}
+
+.set-img-crop-modal{
+    height: 250px !important;
+}
+
+
+
+/* nav1 */
+.nav1-edited{
+    height: 64px;
+}
+.con-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.nav1-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.nav1-btn{
+    background-color: #263C92;
+    color: white;
+    border-radius: 0;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.nav1-img{
+    max-height: 100%;
+    width: 75%;
+} 
+/* akhir nav1 */
+
+/* nav2 */
+.router-link-edited{
+    color: black;
+    text-decoration: none;
+}
+.nav2-edited{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    background-color: #263C92;
+}
+.nav2-edited-link{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.nav2-edited-link:hover{
+    border-radius: 40px !important;
+}
+.animate-navbar{
+    position: fixed;
+    top: 0;
+}
+.animate-carousel{
+    margin-top: 66px;
+}
+.animate-kon{
+    margin-top: 80px;
+}
+.gt-sm-edited{
+    display: none;
+}
+.lt-sm-edited{
+    display: flex;
+}
+/* akhir nav2 */
+
+/* nav2 dashboard */
+.nav2-edited-dashboard{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #263C92;
+}
+.menu-list-edited{
+    border-radius: 0 20px 20px 0 !important;
+}
+.nav-username:hover{
+    background-color: transparent !important;
+}
+/* .background-change{
+    background-color: rgb(230, 230, 230) !important;
+} */
+/* akhir nav2 dashboard */
+
+/* sidebar */
+.sidebar-drawer{
+    background-color: white !important;
+}
+.sidebar-logo{
+    width: 80%;
+    margin: 20px;
+}
+.sid-link{
+    border-bottom: 1px solid white !important;
+}
+.nav-side-edited{
+    text-transform: capitalize;
+}
+.nav-text-edited{
+    color: black;
+    background-color: red;
+}
+/* akhir sidebar */
+
+/* carousel */
+.col-edited{
+    padding: 0px;
+}
+.carousel-edited{
+    height: 100% !important;
+    width: 100vw;
+    margin-left: -5px;
+}
+.car-img{
+    height: 100% !important;
+    width: 100vw;
+    margin-left: -5px;
+}
+.section-edited1{
+    margin-bottom: 45px;
+    overflow-x: hidden !important;
+}
+/* akhir carousel */
+
+/* konten */
+.kon-mar-ed{
+    padding:0 !important;
+}
+.sec-img{
+    position: relative;
+}
+.bor-bott-right{
+    position: absolute;
+    bottom: -12px;
+    right: 0;
+    height: 12px;
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+    background-color: #263C92;
+}
+.bor-bott-left{
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    height: 12px;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+    background-color: #263C92;
+}
+.p-text-mar-right{
+    margin-right: 0;
+}
+.p-text-mar-left{
+    margin-left: 0;
+}
+.mar-bott{
+    margin-bottom: 800px;
+}
+.kon-mb{
+    margin-bottom: 32px;
+}
+.ol-edited{
+    padding: 0 0 15px 17px;
+    margin: 0;
+}
+.ol-ed-tuj-mot{
+    padding-right: 0;
+}
+.img-lg-right{
+    display: none;
+}
+.img-kon-animate{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.bor-bot-animate{
+    display: block;
+}
+.th-edited{
+    font-weight: bold !important;
+}
+.img-pejabat{
+    height: 100px;
+    width: 100px;
+}
+.cov-img-str-o{
+    width: 100%;
+    height: 100%;
+}
+.img-str-o{
+    height: 100%;
+    width: 100%;
+}
+.table-croll-custom{
+    overflow-y: hidden !important;
+}
+.my-card-edited{
+    border: 3px solid #263C92 !important;
+    box-shadow: 1px 1px 5px rgb(212, 212, 212) !important;
+    height: auto !important;
+}
+.gam-thumb{
+    height: 100% !important;
+    width: 100% !important;
+}
+.pl-edited{
+    padding-left: 0;
+}
+.card-mb-edited{
+    margin-bottom: 0;
+}
+.btn-edited-col{
+    background-color: #263C92 !important;
+}
+.modal-tol-nav{
+    background-color: #263C92 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.modal-tol-ed{
+    color: white !important;
+}
+.img-modal{
+    width: 45%;
+    height: 400px;
+}
+.img-radius-modal{
+    border-radius: 20px;
+}
+.konten-modal{
+    padding: 0 5px;
+}
+.btn-down{
+    background-color: #E0E0E0;
+}
+.video-horizontal{
+    height: 279px !important;
+    width: 100%;
+}
+.webinar-card{
+    padding: 10px 20px 0 20px;
+}
+.webinar-row{
+    margin-bottom: 20px;
+}
+.my-card-webinar{
+    height: 260px;
+}
+.cov-img-screenshoot{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-screenshoot{
+    height: 100%;
+    width: 100%;
+}
+.left-kon{
+    padding-right: 0;
+}
+.right-kon{
+    padding-left: 0;
+}
+.form-kon{
+    color: #263C92 !important;
+}
+.input-left{
+    margin-right: 0;
+}
+.input-right{
+    margin-left: 0;
+}
+.tab-edited{
+    float: left;
+    color: #263C92;
+}
+.tab-text{
+    text-transform: capitalize;
+}
+.gallerys{
+    height: 250px !important;
+}
+.gallerys2{
+    background-color: black;
+    height: 200px !important;
+}
+.gallery-top-right{
+    background-color: green;
+    height: 50% !important;
+}
+.gallery-bot-right{
+    background-color: blue;
+    height: 50% !important;
+}
+.img-gallery{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.img-gallery:hover{
+    cursor: pointer;
+}
+/* akhir konten */
+
+/* video */
+.my-card{
+    width: 100%;
+    height: 238px;
+    border-radius: 0;
+    box-shadow: none;
+    /* border: 2px solid #263C92; */
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+.sec-title{
+    border-bottom: 3px solid #263C92;
+}
+/* akhir video */
+
+/* fasilitas */
+.section-edited2{
+    margin-top: 45px;
+}
+/* akhir fasilitas */
+
+/* footer */
+.img-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.text-footer{
+    color: #263C92;
+}
+.txt-foo-resp{
+    padding-right: 60px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.footer{
+    height: 214px;
+    border-top: 2px solid #263C92;
+    padding-top: 16px;
+    margin-top: 40px;
+}
+.footer-dashboard{
+    height: 214px;
+    border-top: 2px solid #263C92;
+    padding-top: 16px;
+    margin-top: 100px;
+}
+.i-edited{
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* akhir footer */
+
+
+/* login */
+.cov-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-title{
+    background-color: #263C92;
+}
+.login-card{
+    height: auto !important;
+    border: 0px solid;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(187, 187, 187) !important;
+}
+/* akhir login */
+
+
+/* all */
+.select-edited{
+    width: 100%;
+    height: 54px;
+    padding: 0 9px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189) !important;
+}
+.select-edited:focus{
+    outline: none !important;
+    border: 2px solid #4c6be7 !important;
+}
+.select-edited:hover {
+    outline: none !important;
+    border: 1px solid #4c6be7 !important;
+}
+.opt-edited{
+    background-color: white !important;
+    box-shadow: 1px 1px 5px rgb(192, 192, 192) !important;
+    margin: 20px 0 !important;
+}
+.post-input{
+    padding-left: 0;
+}
+.input-file-edited{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 15px;
+    border-radius: 5px;
+    width: 100% !important;
+}
+/* akhir all */
+
+/* tentang */
+.visi, .misi{
+    font-size: 40px;
+    color: #263C92;
+}
+.misi{
+    float: right !important;
+}
+.img-ten-ged{
+    width: 100% !important;
+    height: 100% !important;
+}
+.misi-laptop{
+    display: none;
+}
+.misi-mobile{
+    display: block;
+}
+.tentang-kalimat{
+    margin-top: 50px;
+}
+.my-card-edited-struk-org{
+    box-shadow: 1px 1px 5px rgb(212, 212, 212) !important;
+    height: auto !important;
+    border: none;
+}
+/* akhir tantang */
+
+/* cms dinamis */
+.my-card-edited-dinamis{
+    height: 40vh;
+}
+/* akhir cms dinamis */
+
+/* router-link-active */
+.act{
+    font-weight: bold !important;
+    color: rgb(56, 56, 56) !important;
+    text-decoration: none !important;
+}
+/* akhir router-link-active */
+
+/* -------------------------------------------------------------------- */
+/* breakpoint */
+
+/* -------------------------------------------------------------------- */
+/* tablet */
+@media (min-width: 600px) {
+    /* konten */
+    .input-left{
+        margin-right: 10px;
+    }
+    .input-right{
+        margin-left: 10px;
+    }
+    .konten-modal{
+        padding: 0 50px;
+    }
+    .post-input{
+        padding-left: 20px;
+    }
+    /* akhir konten */
+
+    /* tentang */
+    .visi, .misi{
+        font-size: 70px;
+    }
+    /* akhir tentang */
+
+    /* footer */
+    .txt-foo-resp{
+        text-align: left;
+        padding-left: 0;
+        padding-right:10px;
+        margin: 0;
+    }
+    /* akhir footer */
+}
+
+/* ---------------------------------------------------------------------- */
+/* laptop */
+@media (min-width: 992px) {
+    .nav1-edited{
+        height: 96px;
+    }
+
+    /* konten */
+    .webinar-row{
+        margin-bottom: 0;
+    }
+    /* akhir konten */
+
+     /* footer */
+     .txt-foo-resp{
+        text-align: left;
+        padding-right:20px;
+    }
+    /* akhir footer */
+}
+
+/* ---------------------------------------------------------------------- */
+/* laptop besar */
+@media (min-width: 1024px) {
+    /* konten */
+    .kon-mar-ed{
+        padding: 0 10px !important;
+    }
+    .bor-bott-right{
+        width: 150%;
+    }
+    .bor-bott-left{
+        width: 150%;
+    }
+    .p-text-mar-right{
+        margin-right: 50px;
+    }
+    .p-text-mar-left{
+        margin-left: 50px;
+    }
+    .ol-ed-tuj-mot{
+        padding-right: 40px;
+    }
+    .img-lg-right{
+        display: block;
+    }
+    .img-kon-animate{
+        display: none;
+    }
+    .bor-bot-animate{
+        display: none;
+    }
+    .pl-edited{
+        padding-left: 20px;
+    }
+    .card-mb-edited{
+        margin-bottom: 20px;
+    }
+    .webinar-card{
+        padding: 10px 0 0 20px;
+    }
+    .img-screenshoot{
+        width: 70%;
+    }
+    .left-kon{
+        padding-right: 20px;
+    }
+    .right-kon{
+        padding-left: 20px;
+    }
+    /* akhir konten */
+
+    /* tentang */
+    .visi, .misi{
+        font-size: 150px;
+    }
+    .misi-laptop{
+        display: block;
+    }
+    .misi-mobile{
+        display: none;
+    }
+    .tentang-kalimat{
+        margin-top: 0;
+    }
+    /* akhir tentang */
+}
+
+/* responsive navbar nav */
+@media (min-width: 1150px) {
+    /* navbar 2 */
+    .gt-sm-edited{
+        display: flex;
+    }
+    .lt-sm-edited{
+        display: none;
+    }
+    /* akhir navbar 2 */
+}
+/* akhir responsive navbar nav */
